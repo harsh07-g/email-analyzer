@@ -1,0 +1,43 @@
+
+.instructions-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #3498db;
+}
+
+.steps-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.steps-list li {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.info-box {
+    background-color: #f2f2f2;
+    padding: 12px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #e74c3c;
+    word-wrap: break-word;
+    margin-top: 8px;
+}
+
+.waiting-message {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c3e50;
+}
